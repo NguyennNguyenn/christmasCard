@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-image: url("img/background.png");
+    background-size: cover;
+}
+a {
+    opacity: 0;
+}
+#one {
+    position: absolute;
+    bottom: 49%;
+    left: 35%;
+}
+#two {
+    position: absolute;
+    bottom: 40%;
+    left: 35%;
+}
+#three {
+    position: absolute;
+    bottom: 32%;
+    left: 39%;
+}
+#four {
+    position: absolute;
+    bottom: 32%;
+    left: 51%;
+}
+#five {
+    position: absolute;
+    bottom: 40%;
+    left: 55%;
+}
+#six {
+    position: absolute;
+    bottom: 49%;
+    left: 55%;
+}
+#seven {
+    position: absolute;
+    bottom: 90%;
+    left: 11%;
+}
+@media (max-width: 480px) {
+    body {
+        background-image: url("img/background-phone.png");
+    }
+}
